@@ -1,0 +1,38 @@
+public void Display(){
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Enter The Number Of 3D Tickets Bought: ");
+        Number_of_Tickets_1 = input.nextDouble();
+        System.out.println("Enter The Number Of 2D Tickets Bought: ");
+        Number_of_Tickets_2 = input.nextDouble();
+        System.out.println("Enter the Price for 3D Tickets: ");
+        ThreeDPrice = input.nextDouble();
+        System.out.println("Enter the Price for 2D Tickets: ");
+        TwoDPrice = input.nextDouble();
+        
+        total_Amount_1 = Number_of_Tickets_1 * ThreeDPrice;
+        total_Amount_2 = Number_of_Tickets_2 * TwoDPrice;
+        
+        total_Amount = total_Amount_1 + total_Amount_2;
+        
+        Donations_1 = total_Amount_1*0.08;
+        Donations_2 = Number_of_Tickets_2*0.06;
+        
+        Donations = Donations_1 + Donations_2;
+        
+        Profit = total_Amount - Donations;
+        
+        System.out.println("Total Amount For 3D movies is: " + total_Amount_1);
+        System.out.println("Total Amount For 2D Tickets is: " + total_Amount_2);
+        System.out.println("Total Amount Of Money Made: " + total_Amount);
+        System.out.println("Profit: " + Profit);
+        System.out.println("Donations: " + Donations);
+    }
+    public static void main(String[] args) {
+        MTicket MT = new MTicket();
+        
+        MT.Display();
+    }
+    
+}
