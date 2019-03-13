@@ -1,0 +1,31 @@
+package mtictektapp;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author FAITH TOM
+ */
+public class MTicket {
+
+    double TwoDPrice;
+    double ThreeDPrice;
+    double Number_of_Tickets_1;
+    double Number_of_Tickets_2;
+    double total_Amount;
+    double total_Amount_1;
+    double total_Amount_2;
+    double Profit;
+    double Donations;
+    double Donations_1;
+    double Donations_2;
+    
+    public MTicket(){
+     TwoDPrice = 0.00;
+     ThreeDPrice =0.00;
+     Number_of_Tickets_1 = 0.00;
+     Number_of_Tickets_2 = 0.00;
+     total_Amount = 0.00;
+     Profit = 0.00;
+     Donations = 0.00;
+    }
