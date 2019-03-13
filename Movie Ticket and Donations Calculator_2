@@ -1,0 +1,61 @@
+/* The Getters and Setters
+*/
+
+public void setTwoDPrice(double TwoDPrice){
+        TwoDPrice = TwoDPrice;
+    }
+    public double getTwoDPrice(){
+        return TwoDPrice;
+    }
+    
+    public void setThreeDPrice(double ThreeDPrice){
+        ThreeDPrice = ThreeDPrice;
+    }
+    public double getThreeDPrice(){
+        return ThreeDPrice;
+    }
+    public void setNumberOfTicks1(double Number_of_Tickets_1){
+        Number_of_Tickets_1 = Number_of_Tickets_1;
+    }
+    public double getNumberofTickets1(){
+        return Number_of_Tickets_1;
+    }
+        public void setNumberOfTicks2(double Number_of_Tickets_2){
+        Number_of_Tickets_2 = Number_of_Tickets_2;
+    }
+    public double getNumberofTickets2(){
+        return Number_of_Tickets_2;
+    }
+    
+    public void setTotalAmount(double Total_Anount){
+        total_Amount = total_Amount;
+    }
+    public double getTotalAmount(){
+        return total_Amount;
+    }
+    public void setProofilt(double Profit){
+        Profit = Profit;
+    }
+    public double getProfit(){
+        return Profit;
+    }
+    public void setDonations(double Donations){
+        Donations = Donations;
+    }
+    public double getDonations(){
+        return Donations;
+    }
+    public void setDonations_1(double Donations_1){
+        Donations_1 = Donations_1;
+    }
+    public double getDonations_1(){
+        return Donations_1;
+    }
+    public void setDonations_2(double Donations_2){
+        Donations_2 = Donations_2;
+    }
+    public double getDonations_2(){
+        return Donations_2;
+    }
+    
+    
