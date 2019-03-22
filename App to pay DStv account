@@ -1,0 +1,93 @@
+/* java program to see how much you owe your cable company, depending on the account you are subscribed to, Compact or Premium
+
+package cablecompanyapp;
+import java.util.Scanner;
+/**
+ * Cable Company Application
+ * @author Thomas TOM Mpofu
+ */
+public class CableCompany {
+
+    public String Surname;
+    public String Initials;
+    public long Account_Number;
+    public static int Compact_Price = 12;
+    public static int Premium_Price = 17;
+    public double days;
+    public double Total_Amount;
+    public int Choice;
+    public double Amount;
+    
+public CableCompany(){
+    String Surname;
+    String Initials;
+    long Account_Number;
+    int Compact_Price = 12;
+    int Premium_Price = 17;
+    double days =0.00;
+    double Total_Amount =0.00;
+    int Choice =0;
+    double Amount = 0.00;
+}
+
+public void setSurName(String Surname){
+    Surname = Surname;
+}
+public String getSurName(){
+    return Surname;
+}
+
+public void setInitials(String Initials){
+    Initials = Initials;
+}
+public String getInitials(){
+    return Initials;
+}
+
+public void setAccountNumber(double Account_Number){
+    Account_Number = Account_Number;
+}
+public long getAccountNumber(){
+    return Account_Number;
+}
+
+public void setDAYS(double days){
+    days = days;
+}
+public double getDays(){
+    return days;
+}
+
+public void setTotalAmount(double Total_Amount){
+    Total_Amount = Total_Amount;
+}
+public double getTotalAmount(){
+    return Total_Amount;
+}
+
+public void setCompactPrice(int Compact_Price){
+    Compact_Price = Compact_Price;
+}
+public int getCompactPrice(){
+    return Compact_Price;
+}
+
+public void setPremium_Price(int Premium_Price){
+    Premium_Price = Premium_Price;
+}
+public int getPremiumPrice(){
+    return Premium_Price;
+}
+public void setChoice(int Choice){
+    Choice = Choice;
+}
+public int getChoice(){
+    return Choice;
+}
+
+public void setAmount(double Amount){
+    Amount = Amount;
+}
+public double getAmount(){
+    return Amount;
+}
