@@ -1,0 +1,45 @@
+public void Display(){
+    
+    Scanner input = new Scanner(System.in);
+    
+    System.out.println("Enter Your Surname");
+    Surname = input.next();
+    System.out.println("Enter Your Initials");
+    Initials = input.next();
+    System.out.println("Enter Your Account Number: ");
+    Account_Number = input.nextLong();
+    
+    System.out.println("Which Account are you using, Compact/Premium?" + "\n" + "Press" + "1. Compact    2. Premium");
+    Choice = input.nextInt();
+    if(Choice == 1){
+        System.out.println("Enter the number of days you used your cable: ");
+        days = input.nextInt();
+        
+        Amount = days * 17;
+        Total_Amount = Amount + Compact_Price;
+        System.out.println("Payable Amount: " + Total_Amount);
+    }
+    else if(Choice == 2){
+        System.out.println("Enter the Number OF Days You Used Your Cable: ");
+        days = input.nextInt();
+        
+        Amount = days * 22;
+        Total_Amount = Amount + Premium_Price;
+         System.out.println("Payable Amount: " + Total_Amount);       
+    }
+    else{
+        System.out.println("Invalid Entry");
+    }
+    
+    System.out.println("Surname: " + Surname);
+    System.out.println("Initials: " + Initials);
+    System.out.println("Your Account Number is: " + Account_Number);
+    
+}
+    public static void main(String[] args) {
+    CableCompany CC = new CableCompany();
+    
+    CC.Display();
+    }
+    
+}
